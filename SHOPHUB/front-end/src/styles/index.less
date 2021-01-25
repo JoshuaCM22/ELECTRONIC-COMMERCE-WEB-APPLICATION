@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import "variables.less";
+
+body {
+    background-color: @color-white;
+    font-family: "Open Sans", sans-serif;
+}
+
+#header {
+    background-color: @color-black;
+
+    img {
+        height: 100px;
+    }
+}
+
+#navigationBar {
+    background-color: @color-nero;
+
+    a {
+        color: @color-white;
+
+        &:hover {
+            background-color: @color-dark-gray;
+        }
+
+    }
+
+    .navbar-toggler {
+        background-color: @color-white;
+    }
+
+    #searchBox {
+        height: 47px;
+        width: 300px;
+    }
+
+    #searchboxButton {
+        background-color: @color-orange;
+        color: @color-black;
+        font-weight: 900;
+        height: 47px;
+        margin-left: -9px;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+    button {
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+}
+
+.dropdown-menu {
+    background-color: @color-nero;
+
+    a {
+
+        &:hover {
+            background-color: @color-dark-gray;
+        }
+
+    }
+}
+
+#productCarousel {
+    background-color: @color-nero;
+}
+
+footer {
+    background-color: @color-black;
+    height: 100px;
+
+    h5 {
+        color: @color-orange;
+        margin: 18px auto;
+    }
+}
+
+main {
+    min-height: 80vh;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+.rating {
+    span {
+        margin: 0.1rem;
+    }
+}
+
+.carousel-item-next {
+    display: flex;
+}
+
+.carousel-item-prev {
+    display: flex;
+}
+
+.carousel-item.active {
+    display: flex;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+
+    h2 {
+        color: @color-white;
+    }
+}
+
+.carousel {
+    img {
+        height: 300px;
+        padding: 30px;
+        margin: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a {
+        margin: 0 auto;
+    }
+}
+
+@import "responsive.less";

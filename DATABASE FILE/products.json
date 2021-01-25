@@ -1,0 +1,319 @@
+[{
+  "_id": {
+    "$oid": "5ffb0fa35f2dde177c62d2d9"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 600,
+  "countInStock": 3,
+  "name": "Arrow Shirts",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611133808438.jpg",
+  "brand": "Unknown",
+  "category": "Shirts",
+  "description": "Description: Lightweight mesh upper with 3-color digital print delivers complete breathability",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-10T14:30:59.146Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T09:50:59.137Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffb134c571ebc0860f7328a"
+  },
+  "rating": 2,
+  "numReviews": 1,
+  "price": 100,
+  "countInStock": 10,
+  "name": "Wrangler Jeans",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611136748103.jpg",
+  "brand": "Unknown",
+  "category": "Pants",
+  "description": "Description: Wrangler is often described as a cool jeans brand because of superb fitting and stylish looks. It is designed by integrating both modern trends and vintage fashion. The in-demand jeans brand carries a “W” signature on its back pocket that gives it an individual, original and classy look.",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "5ffc02029a565347e09b2907"
+      },
+      "name": "Joshua C. Magoliman",
+      "rating": 2,
+      "comment": "Awesome",
+      "user": {
+        "$oid": "5ffb0db992e6e64d84c94046"
+      },
+      "createdAt": {
+        "$date": "2021-01-11T07:45:06.082Z"
+      },
+      "updatedAt": {
+        "$date": "2021-01-11T07:45:06.082Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-01-10T14:46:36.874Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T09:59:22.992Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5ffb1399571ebc0860f7328c"
+  },
+  "rating": 3,
+  "numReviews": 1,
+  "price": 200,
+  "countInStock": 0,
+  "name": "Levi’s Pants",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137297847.jpg",
+  "brand": "Levi’s",
+  "category": "Pants",
+  "description": "Description: Levi’s is one of the most popular and top-selling jeans brand in the world. This veteran jeans brand has been able to create a distinctive place of its own in the merchandise industry as people associate it with a definite status symbol.",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "5ffc01ed9a565347e09b2906"
+      },
+      "name": "Joshua C. Magoliman",
+      "rating": 3,
+      "comment": "Nice",
+      "user": {
+        "$oid": "5ffb0db992e6e64d84c94046"
+      },
+      "createdAt": {
+        "$date": "2021-01-11T07:44:45.072Z"
+      },
+      "updatedAt": {
+        "$date": "2021-01-11T07:44:45.072Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-01-10T14:47:53.929Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:10:40.805Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5ffb13e5571ebc0860f7328d"
+  },
+  "rating": 5,
+  "numReviews": 1,
+  "price": 1000,
+  "countInStock": 10,
+  "name": "Peter England Shirts",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137414945.jpg",
+  "brand": "Peter England",
+  "category": "Shirts",
+  "description": "Description: Peter England is one of the largest menswear brands in India known for its standardized fits, fashionable styles and superior quality. Peter England’s shirts are a blend of comfort and style that makes it a top men’s shirt brand.",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "5ffc01a99a565347e09b2905"
+      },
+      "name": "Joshua C. Magoliman",
+      "rating": 5,
+      "comment": "I loved it",
+      "user": {
+        "$oid": "5ffb0db992e6e64d84c94046"
+      },
+      "createdAt": {
+        "$date": "2021-01-11T07:43:37.306Z"
+      },
+      "updatedAt": {
+        "$date": "2021-01-11T07:43:37.306Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-01-10T14:49:09.695Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:10:22.155Z"
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "5ffbf72c9a565347e09b28fb"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 400,
+  "countInStock": 0,
+  "name": "Scott",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137619358.jpg",
+  "brand": "Unknown",
+  "category": "Shirts",
+  "description": "Description: Dixcy Scott is a branded innerwear for men, offering lifestyle brand to all the segments in the hosiery market. The Royal Vest form men is made from combed cotton and designed with maximum comfort and durability.",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T06:58:52.687Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:13:51.099Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbf72f9a565347e09b28fc"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 700,
+  "countInStock": 2,
+  "name": "Pixabay",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137727509.jpg",
+  "brand": "Unknown",
+  "category": "Pants",
+  "description": "Description: Excellent design, a perfect fit, quality material, and several shades have created the most sought-out designer label Diesel. The brand is also known for its dramatic and eye-catching ad campaigns that have helped it in garnering unbelievable international fame.",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T06:58:55.352Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:15:30.570Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbf7319a565347e09b28fd"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 900,
+  "countInStock": 7,
+  "name": "Lee Cotton Jeans",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137799003.jpg",
+  "brand": "Lee Jeans",
+  "category": "Pants",
+  "description": "Description: Lee Jeans is an American origin brand founded in the year 1889 by its founder Henry David Lee. It works as a subsidiary of its parent company VF Corporation. The brand has spread its network to most countries of the world and handles its operations via headquarters base at Merriam in Kansas, the United States.",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T06:58:57.562Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:17:20.364Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbf7409a565347e09b28fe"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 400,
+  "countInStock": 10,
+  "name": "Swag",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137890111.jpg",
+  "brand": "Unknown",
+  "category": "Shirts",
+  "description": "Description: Everlane has taken the clothing world by storm with hyper-minimalist essentials for men and women. This Air Crew Tee pretty much sums up what Everlane is about: high-quality materials, modern looks and reasonable prices.",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T06:59:12.951Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:18:40.979Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbf7439a565347e09b28ff"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 300,
+  "countInStock": 6,
+  "name": "Cotton Shirt",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611137991546.jpg",
+  "brand": "Unknown",
+  "category": "Shirts",
+  "description": "Description: Zodiac is a leader in men’s fine clothing and accessories. Its international and sophisticated styles reinvent men’s fashion. Zodiac is best known for its designs that are bound to revamp your everyday look.",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T06:59:15.735Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:20:12.347Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbf7459a565347e09b2900"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 200,
+  "countInStock": 4,
+  "name": "Cotton Vest",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611138068014.jpg",
+  "brand": "Unknown",
+  "category": "Unknown",
+  "description": "Description: With a long range of vest designs, Hammock has achieved his place in the top ten this year. The reason why people like this brand is because of the different patterns and colors that it provides in the vests.",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T06:59:17.449Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:21:34.098Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbfe0a9a565347e09b2904"
+  },
+  "rating": 0,
+  "numReviews": 0,
+  "price": 930,
+  "countInStock": 6,
+  "name": "Cannon EOS 80D DSLR Camera",
+  "user": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "image": "/uploads\\image-1611138231371.jpg",
+  "brand": "Canon",
+  "category": "Camera",
+  "description": "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-01-11T07:28:10.106Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T10:25:15.354Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "5ffb0db992e6e64d84c94046"
+  },
+  "isAdmin": true,
+  "name": "Joshua C. Magoliman",
+  "email": "joshuacm22@gmail.com",
+  "password": "$2a$10$1e0vht1UB57t1hfQNHbp/.E50kv0W/nTsouBPnLsxVobzdou8uspi",
+  "createdAt": {
+    "$date": "2021-01-10T14:22:49.784Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-11T17:33:14.134Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ffbaeab76e5333a749e8d84"
+  },
+  "isAdmin": false,
+  "name": "Joanna Mae C. Magoliman",
+  "email": "joanna@gmail.com",
+  "password": "$2a$10$q05i1mqERL2fAXiizJS7k.C8oDemDHB.WVIeJ0l0zJJYUlwKAmzWO",
+  "createdAt": {
+    "$date": "2021-01-11T01:49:31.827Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-20T12:25:49.186Z"
+  },
+  "__v": 0
+}]
